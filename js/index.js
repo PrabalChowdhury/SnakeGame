@@ -31,6 +31,7 @@ function isCollide(snake) {
 
 function gameEngine(){
     if(isCollide(snakeArr)){
+        alert("Game Over");
         inputDir =  {x: 0, y: 0};
         snakeArr = [{x: 13, y: 15}];
         score = 0;
