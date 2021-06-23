@@ -30,7 +30,7 @@
     padding: 20px 20px;
 }
 #board{
-    background: gray;
+    background: green;
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
@@ -41,20 +41,21 @@
 }
 
 .head{
-    background: white;
+    background: white
+;
     border: 2px solid rgb(34, 4, 34); 
     transform: scale(1.02);
     border-radius: 9px;
 }
 
 .snake{
-    background-color: white;
+    background-color: cyan;
     border: .25vmin solid;
     border-radius: 12px;
 }
 
 .food{
-    background: black;
+    background: tomato;
     border: .25vmin solid black;
     border-radius: 50%;
 }
